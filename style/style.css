@@ -1,0 +1,12 @@
+.sticky-container{
+
+}
+.fixed {
+  position:fixed;
+  top:0;
+}
+.sticky-box{
+    background:red;
+    height:50px;
+    color:#fff;
+}
