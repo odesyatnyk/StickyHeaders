@@ -1,12 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url("../img/bkg.jpg");
+  box-sizing: border-box;
+}
+.container{
+  background: rgba(255, 255, 255, 0.75);
+}
+p{
+  padding: 15px;
+  text-align: justify;
+}
 .sticky-container{
-
+  margin: 0;
 }
 .fixed {
   position:fixed;
   top:0;
 }
 .sticky-box{
-    background:red;
-    height:50px;
-    color:#fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 15px;
+  background:#373A36;
+  height:50px;
+  color:#fff;
+  text-align: center;
 }
