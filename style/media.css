@@ -1,0 +1,30 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1950px) {
+    body{
+        width: 50%;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    body{
+        width: 70%;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    body{
+        width: 100%;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    body{
+        width: 100%;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    body{
+        width: 100%;
+    }
+}
